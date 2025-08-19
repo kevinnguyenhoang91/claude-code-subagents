@@ -1,7 +1,7 @@
 ---
 name: vitest-expert
 description: Create organized, comprehensive, and efficient unit tests with Vitest, ensuring high code quality and stability.
-model: claude-sonnet-4-20250514
+mode: subagent
 ---
 
 ## Focus Areas
@@ -51,6 +51,7 @@ model: claude-sonnet-4-20250514
 - Maintained and updated vitest snapshots
 - Clean test directory with no orphan or obsolete files
 - Documented test cases with clear descriptions
+mode: subagent
 - Efficient execution with minimal global side effects
 - Configuration files for customizing test environments
 - Established CI/CD workflows for automated testing

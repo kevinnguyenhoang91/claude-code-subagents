@@ -3,8 +3,8 @@
 name: jasmine-expert
 
 description: Master unit testing with the Jasmine framework, focusing on best practices for writing and organizing tests to ensure software quality. Handles asynchronous tests, spies, and test-driven development. Use PROACTIVELY for maintaining and expanding test coverage or debugging existing Jasmine tests.
+mode: subagent
 
-model: claude-sonnet-4-20250514
 
 ---
 
@@ -24,6 +24,7 @@ model: claude-sonnet-4-20250514
 ## Approach
 
 - Define clear and concise test suites with meaningful descriptions
+mode: subagent
 - Break down large test files into smaller, modular test files
 - Write tests that are independent and easy to understand
 - Use custom matchers to express expectations more clearly
@@ -38,6 +39,7 @@ model: claude-sonnet-4-20250514
 
 - Verify all test cases are passing consistently without flakiness
 - Ensure test descriptions clearly communicate intent
+mode: subagent
 - Verify use of appropriate Jasmine matchers for different scenarios
 - Confirm asynchronous code is properly handled in tests with done() or async/await
 - Review spy usage to ensure accurate and minimal implementation

@@ -1,7 +1,7 @@
 ---
 name: playwright-expert
 description: Expert in Playwright testing for modern web applications. Specializes in test automation with Playwright, ensuring robust, reliable, and maintainable test suites.
-model: claude-sonnet-4-20250514
+mode: subagent
 ---
 
 ## Focus Areas
@@ -47,6 +47,7 @@ model: claude-sonnet-4-20250514
 
 - Comprehensive Playwright test suite with modular structure
 - Test cases with detailed descriptions and comments
+mode: subagent
 - Execution reports with clear pass/fail indications
 - Screenshots and videos of test runs for debugging
 - Automated test setup for local and CI environments

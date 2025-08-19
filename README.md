@@ -191,6 +191,7 @@ git clone https://github.com/your-username/claude-code-subagents.git
 
 ### Automatic Invocation
 Claude Code will automatically delegate to the appropriate subagent based on the task context and the subagent's description.
+mode: subagent
 
 ### Explicit Invocation
 Mention the subagent by name in your request:
@@ -205,6 +206,7 @@ To add a new subagent:
 1. Create a new `.md` file in the `agents/` directory
 2. Use lowercase, hyphen-separated names
 3. Write clear descriptions for when the subagent should be used
+mode: subagent
 4. Include specific instructions in the system prompt
 5. Follow the established format with focus areas, approach, quality checklist, and output
 
